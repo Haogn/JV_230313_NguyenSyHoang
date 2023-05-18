@@ -1,0 +1,10 @@
+.container {
+  padding: 3rem;
+  position: relative;
+}
+.cart-app {
+  font-size: 40px;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+}

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.list-product {
+  width: 100%;
+}
+.item-product {
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  gap: 10px;
+}
+
+img {
+  width: 290px;
+  height: 290px;
+  background-color: black;
+  display: block;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.body {
+  background-color: rgb(122, 121, 121);
+  color: aliceblue;
+  width: 290px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 20px;
+}
+.apple {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+}
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: #fff;
+}
+.total {
+  display: flex;
+  justify-content: space-around;
+}
